@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.greyparrot.io/uihub-icons/uihub-icons.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Toggle SideBar</title>
+    </head>
+    <body>
+        <!-- <form id="form">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="enter your name">
+    <button id="btn" class="button" type="submit">Submit</button>
+   </form>  -->
+
+        <!-- <button >toggle</button> -->
+        <span type="button" id="toggle" class="u-icon u-icon-32"
+            >o-align-justify</span
+        >
+        <nav id="sidebar">
+            <div class="top">
+                <img src="/logo.png" alt="logo" />
+                <span type="button" id="cancel" class="u-icon u-icon-24"
+                    >multiply</span
+                >
+            </div>
+            <div class=
+                <input
+                    type="text"
+                    id="search"
+                    data-icon="search"
+                    data-icon-color="#ccc"
+                    placeholder="Search"
+                />
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li>
+                        <a href="#"
+                            >Products<i class="fa-solid fa-chevron-down"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            >Services<i class="fa-solid fa-chevron-down"></i
+                        ></a>
+                    </li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </div>
+            <div class="footer">
+                <div type="button" id="contact" class="contact">
+                    <span
+                        type="button"
+                        class="u-icon u-icon-32"
+                        style="
+                            color: rgb(36, 66, 239);
+                            transform: rotate(135deg);
+                        "
+                        >call</span
+                    >
+                    <p>Contact</p>
+                </div>
+                <div type="button" id="email" class="email">
+                    <span
+                        type="button"
+                        class="u-icon u-icon-32"
+                        style="color: rgb(36, 66, 239)"
+                        >mail</span
+                    >
+                    <p>Email</p>
+                </div>
+                <div type="button" id="faqs" class="faqs">
+                    <span
+                        type="button"
+                        class="u-icon u-icon-32"
+                        style="color: rgb(36, 66, 239)"
+                        >chats</span
+                    >
+                    <p>FAQ</p>
+                </div>
+            </div>
+        </nav>
+
+        <script src="/index.js"></script>
+        <script src="https://cdn.greyparrot.io/uihub-icons/uihub-icons.umd.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                initUIcons();
+            });
+        </script>
+    </body>
+</html>
